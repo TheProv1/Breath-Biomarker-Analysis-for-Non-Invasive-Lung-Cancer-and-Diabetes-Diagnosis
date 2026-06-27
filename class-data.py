@@ -3,7 +3,7 @@ import seaborn as sns
 import matplotlib.pyplot as plt
 
 # 1. Load the dataset
-df = pd.read_csv('master_dataset.csv')
+df = pd.read_csv('knn_balanced_master_dataset.csv')
 
 # 2. Adjust the figure size
 # Make the height larger (e.g., 12 or 15) so all labels have room to breathe
@@ -24,5 +24,5 @@ plt.ylabel('Sensor Class Target')
 
 # 5. Save the plot
 plt.tight_layout()
-plt.savefig('master-dataset.png', dpi=300) # Added dpi=300 for higher resolution
+plt.savefig('knn-dataset.png', dpi=300) # Added dpi=300 for higher resolution
 plt.show()
