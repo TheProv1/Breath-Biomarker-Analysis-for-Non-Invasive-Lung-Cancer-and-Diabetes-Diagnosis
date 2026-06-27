@@ -22,7 +22,7 @@ for gpu in gpus:
     print("GPU Memory Growth Enabled!")
 
 # The 5 distributions we generated
-distributions = ["Beta", "Pearson3", "Log-Normal", "Cauchy", "Uniform", "knn"]
+distributions = [ "knn", "Beta", "Pearson3", "Log-Normal", "Cauchy", "Uniform"]
 
 # Dictionary to hold the final scores for the leaderboard
 final_scores = {}
@@ -77,12 +77,9 @@ for dist in distributions:
     model.add(Conv1D(filters=64, kernel_size=2, activation='relu'))
     model.add(BatchNormalization())
 
-    model.add(Conv1D(filters=128, kernel_size=2, activation='relu'))
-    model.add(BatchNormalization())
-
     # Transition to Dense Neural Network
     model.add(Flatten())
-    model.add(Dense(128, activation='relu'))
+    model.add(Dense(256, activation='relu'))
     model.add(Dropout(0.3))
 
     # Output Layer
