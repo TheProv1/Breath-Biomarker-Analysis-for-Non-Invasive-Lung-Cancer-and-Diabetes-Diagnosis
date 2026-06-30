@@ -74,7 +74,7 @@ pip install -r requirements.txt
 python data-distribution-syn-data-gen.py
 ```
 
-***B. To Generate the KNN dataset ***
-```python
+**B. To Generate the KNN dataset**
+```bash
 python knn-data-generation.py
 ```
