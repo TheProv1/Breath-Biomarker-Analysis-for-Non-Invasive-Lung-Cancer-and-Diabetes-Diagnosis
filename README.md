@@ -38,19 +38,11 @@ Two primary models were tested to evaluate the augmented hardware data:
 *   **1D-CNN (Deep Learning):** An automated feature extractor testing 2 vs. 3 convolutional layers, paired with Dense layers of 128/192/256 neurons, and ReLU/LeakyReLU activations.
 *   **XGBoost (Ensemble Learning):** An unrestricted, GPU-accelerated forest of 3,000 decision trees (Max Depth: 16) designed to natively handle the sparse NaN matrix and execute highly non-linear thresholding.
 
-
-### XGBoost Architecture
-![XGBoost Diagram](figures/Arch-Diagram/XGBoost.png)
-
-### 1D-CNN Architecture
-![1D-CNN Diagram](figures/Arch-Diagram/1D-Arch.png)
-
 ### XGBoost Architecture
 <img src="figures/Arch-Diagram/XGBoost.png" width="600">
 
 ### 1D-CNN Architecture
 <img src="figures/Arch-Diagram/1D-Arch.png" width="600">
-
 
 ## 📊 Key Discoveries & Results
 
