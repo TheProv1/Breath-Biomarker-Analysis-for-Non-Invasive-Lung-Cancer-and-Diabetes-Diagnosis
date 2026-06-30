@@ -60,3 +60,16 @@ The serialized XGBoost model and associated scalers/encoders can be deployed ont
 ```bash
 git clone https://github.com/YourUsername/Breath-Biomarker-Analysis.git
 cd Breath-Biomarker-Analysis
+
+**2. Install dependencies**
+```bash
+pip install -r requirements.txt
+
+
+**3a. To generate Beta, Pearson3, Cauchy etc datasets**
+```bash
+python data-distribution-syn-data-gen.py
+
+***3b. To Generate the KNN dataset ***
+```python
+python knn-data-generation.py
