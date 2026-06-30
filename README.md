@@ -67,12 +67,14 @@ cd Breath-Biomarker-Analysis
 pip install -r requirements.txt
 ```
 
-**3a. To generate Beta, Pearson3, Cauchy etc datasets**
+**3. To Generate the Datasets**
+
+**A. For Beta, Pearson3, Cauchy etc datasets**
 ```bash
 python data-distribution-syn-data-gen.py
 ```
 
-***3b. To Generate the KNN dataset ***
+***B. To Generate the KNN dataset ***
 ```python
 python knn-data-generation.py
 ```
