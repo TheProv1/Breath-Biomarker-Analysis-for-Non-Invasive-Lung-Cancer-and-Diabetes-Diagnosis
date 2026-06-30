@@ -38,6 +38,13 @@ Two primary models were tested to evaluate the augmented hardware data:
 *   **1D-CNN (Deep Learning):** An automated feature extractor testing 2 vs. 3 convolutional layers, paired with Dense layers of 128/192/256 neurons, and ReLU/LeakyReLU activations.
 *   **XGBoost (Ensemble Learning):** An unrestricted, GPU-accelerated forest of 3,000 decision trees (Max Depth: 16) designed to natively handle the sparse NaN matrix and execute highly non-linear thresholding.
 
+
+### XGBoost Architecture
+![XGBoost Diagram](figures/Arch-Diagram/XGBoost.png)
+
+### 1D-CNN Architecture
+![1D-CNN Diagram](figures/Arch-Diagram/1D-Arch.png)
+
 ## 📊 Key Discoveries & Results
 
 ### 1. The Covariance Phenomenon
@@ -58,7 +65,7 @@ The serialized XGBoost model and associated scalers/encoders can be deployed ont
 
 **1. Clone the repository**
 ```bash
-git clone https://github.com/YourUsername/Breath-Biomarker-Analysis.git
+git clone https://github.com/TheProv1/Breath-Biomarker-Analysis.git
 cd Breath-Biomarker-Analysis
 ```
 
