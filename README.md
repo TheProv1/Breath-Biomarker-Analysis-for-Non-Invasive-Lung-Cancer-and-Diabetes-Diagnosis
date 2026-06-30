@@ -45,6 +45,13 @@ Two primary models were tested to evaluate the augmented hardware data:
 ### 1D-CNN Architecture
 ![1D-CNN Diagram](figures/Arch-Diagram/1D-Arch.png)
 
+### XGBoost Architecture
+<img src="figures/Arch-Diagram/XGBoost.png" width="600">
+
+### 1D-CNN Architecture
+<img src="figures/Arch-Diagram/1D-Arch.png" width="600">
+
+
 ## 📊 Key Discoveries & Results
 
 ### 1. The Covariance Phenomenon
